@@ -1,10 +1,10 @@
 name: riverpod_feature
 description: A brick to create a riverpod feature template
 version: 0.2.4+4
-repository: https://github.com/vinothvino42/mason_bricks/tree/main/bricks/riverpod_feature
+repository: https://github.com/bienvenuelisis/mason_bricks/edit/main/bricks/riverpod_feature
 
 environment:
-  mason: ">=0.1.0-dev.26 <0.2.0"
+  mason: ">=0.1.0 <0.2.0"
 
 vars:
   featureName:
@@ -14,6 +14,6 @@ vars:
     prompt: Enter your feature name?
   routable:
     type: boolean
-    description: If it's true, PageRoute name will be added in the page
+    description: If it s true, PageRoute name will be added in the page
     default: false
     prompt: Do you want page route for the view?
